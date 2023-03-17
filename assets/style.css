@@ -57,6 +57,13 @@ Further, broader changes will be made in the following days */
     font-size: 4vw;
     line-height: 1;
   }
+
+  .logo {
+    
+    max-width: 100%;
+    max-height: 9em;
+    padding: 0 1% 0 6%;
+  }
   
   nav {
     display: flex;
