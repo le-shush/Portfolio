@@ -2,6 +2,9 @@
 ## Jesús Mondragón
 Alias Le-Shush
 
+## LINK 
+[Access the live site here](https://github.com/le-shush/Portfolio/index.html)
+
 The following code includes snippets from code created throughout the bootcamp, as well as the main base from the original excercise, given an original mistake wehre the final result expectations was leaked, therefore creating a confusion in the original instructions. It was later informed that an exception for this excercise was admitted and the final code could be used as a base for the design. 
 
 ## NOTES
