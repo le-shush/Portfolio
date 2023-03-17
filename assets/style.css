@@ -19,7 +19,7 @@ Further, broader changes will be made in the following days */
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Century Gothic', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--primary);
     background-color: var(--tertiary);
     line-height: 1.5;
@@ -89,6 +89,12 @@ Further, broader changes will be made in the following days */
   main {
     margin-top: 20px;
     margin-bottom: 45px;
+  }
+
+  main p {
+    font-size: x-large;
+    padding-left: 12vw;
+    font-weight: 200;
   }
   
 
@@ -198,7 +204,7 @@ Further, broader changes will be made in the following days */
   
   .flex-item div {
     background-color: var(--secondary);
-    padding: 8px 10px;
+    padding: 15px 10px;
     min-height: 3vh;
   }
   
@@ -318,6 +324,11 @@ Further, broader changes will be made in the following days */
     header nav {
       justify-content: center;
     }
+
+    main p {
+        padding-left: 0;
+        font-size: large;
+    }
   
     .page-section > h2,
     .page-section > div {
@@ -329,7 +340,7 @@ Further, broader changes will be made in the following days */
       border-bottom: 4px solid var(--primary);
       margin-bottom: 20px;
       padding-bottom: 10px;
-      text-align: left;
+      text-align: right;
       font-size: 7vw;
     }
   }
