@@ -60,7 +60,7 @@ Further, broader changes will be made in the following days */
 
   .logo {
     
-    max-width: 9em;
+    max-width: 100%;
     max-height: 9em;
     padding: 0 1% 0 6%;
   }
