@@ -31,7 +31,7 @@ Further, broader changes will be made in the following days */
   h4,
   h5,
   h6 {
-    margin: 0;
+    margin: 3%;
   }
   
   p {
@@ -91,6 +91,8 @@ Further, broader changes will be made in the following days */
     margin-bottom: 45px;
   }
   
+
+  /* HERO BANNER */
   .hero-banner {
     background: rgb(68, 88, 120);
     background-image: url("../assets/images/ODA_002_EXTERIOR_RENDER_V2.png"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
@@ -120,6 +122,8 @@ Further, broader changes will be made in the following days */
     display: inline;
   }
   
+
+  /* PAGE */
   .page-wrapper {
     max-width: 88%;
     margin-left: auto;
@@ -130,7 +134,7 @@ Further, broader changes will be made in the following days */
     margin: 25px 0;
     padding: 10px 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
@@ -153,8 +157,11 @@ Further, broader changes will be made in the following days */
     margin-bottom: 20px;
   }
   
+
+  /* FLEX CONTAINERS */
   .flex-container {
     display: flex;
+    min-height: 21%;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -163,24 +170,26 @@ Further, broader changes will be made in the following days */
     border: 5px solid var(--secondary);
     background-color: rgba(var(--sec_change), 0.1);
     color: var(--tertiary);
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: calc(50% - 1em);
+    min-height: 50vh;
+    max-height: 300px;
+    flex-basis: calc(100% - 1em);
     display: flex;
     align-items: flex-end;
-    padding: 0 0 20px 0;
+    padding: 0 0 9px 0;
     margin: 0.5em;
     text-decoration: none;
-    background-blend-mode: soft-light;
+    background-blend-mode: multiply; 
     background-size: 150%;
     transition: all 0.5s;
     font-size: 0.9rem;
   }
   
-  /* feature first portfolio item */
+ /* feature first portfolio item */
   .flex-item:first-child {
-      min-height: 400px;
+      min-height: 600px;
       flex-basis: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
   }
   
   .flex-item:hover {
@@ -190,6 +199,7 @@ Further, broader changes will be made in the following days */
   .flex-item div {
     background-color: var(--secondary);
     padding: 8px 10px;
+    min-height: 3vh;
   }
   
   .flex-item h3 {
@@ -224,29 +234,60 @@ Further, broader changes will be made in the following days */
     color: var(--light);
   }
   
-  /* portfolio project images */
-  .fluir {
-    background-image: url("../assets/images/Portada_FLUIR_ArielMuhlia.png");
-  }
+
+  /* IMAGES for portfolio */
   
+  .casa-uro {
+    background-image: url("../assets/images/URO_BALCON_INTERIOR.jpg");
+    
+    /* Creates parallax effect */
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .myc {
     background-image: url("../assets/images/Captura\ de\ pantalla\ 2023-03-16\ 225644.png");
+
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .living-tec {
     background-image: url("../assets/images/PstEdt_MONEYSHOT\ EXTERIOR\ NOCHE_2.png");
-  }
+    
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
   
   .oda-polidep {
     background-image: url("../assets/images/ODA_002_INTERIOR_RENDER_V2.png");
+    
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
-  .casa-uro {
-    background-image: url("../assets/images/URO_BALCON_INTERIOR.jpg");
-    position: relative;
-    background-position: right;
-    background-position-y: 50vh;
+  .fluir {
+    background-image: url("../assets/images/Portada_FLUIR_ArielMuhlia.png");
+    
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
 
   /*  special colours for the different areas, else will be coloured according to the main hove colour*/
   .arq:hover {
@@ -302,7 +343,7 @@ Further, broader changes will be made in the following days */
   
     .hero-banner {
       justify-content: center;
-      text-align: center;
+      text-align: right;
     }
   
     .contact address {
