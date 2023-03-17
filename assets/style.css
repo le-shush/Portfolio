@@ -236,15 +236,15 @@ Further, broader changes will be made in the following days */
   
 
   /* IMAGES for portfolio */
-  
+
   .casa-uro {
     background-image: url("../assets/images/URO_BALCON_INTERIOR.jpg");
     
     /* Creates parallax effect */
     height: 100%;
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: left;
+    background-repeat: space;
     background-size: cover;
   }
 
@@ -298,6 +298,9 @@ Further, broader changes will be made in the following days */
     background-color: rgba(136,143,36,0.7);
   }
   
+
+  /* MEDIA SELECTORS */
+
   @media screen and (max-width: 980px) {
     header {
       padding: 0 0 10px 0;
@@ -334,11 +337,15 @@ Further, broader changes will be made in the following days */
   @media screen and (max-width: 768px) {
     .flex-item,
     .flex-item:first-child {
-      flex-basis: 100%;
+      flex-basis: 50vh;
     }
   
     .flex-item:first-child {
-      min-height: 150px;
+      min-height: 66.6vh;
+    }
+
+    .casa-uro {
+        background-position: center;
     }
   
     .hero-banner {
