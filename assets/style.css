@@ -249,6 +249,16 @@ Further, broader changes will be made in the following days */
   
 
   /* IMAGES for portfolio */
+  .filmFile {
+    background-image: url("../assets/images/URO_BALCON_INTERIOR.jpg");
+    
+    /* Creates parallax effect */
+    height: 100%;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: space;
+    background-size: cover;
+  }
 
   .casa-uro {
     background-image: url("../assets/images/URO_BALCON_INTERIOR.jpg");
