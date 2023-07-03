@@ -249,6 +249,17 @@ Further, broader changes will be made in the following days */
   
 
   /* IMAGES for portfolio */
+  .betBud {
+    background-image: url("../assets/images/logo_BetBud_blackBkgd_Mesa\ de\ trabajo\ 1.png");
+    
+    /* Creates parallax effect */
+    height: 100%;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: space;
+    background-size: cover;
+  }
+
   .filmFile {
     background-image: url("../assets/images/URO_BALCON_INTERIOR.jpg");
     
