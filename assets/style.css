@@ -249,6 +249,18 @@ Further, broader changes will be made in the following days */
   
 
   /* IMAGES for portfolio */
+.cre8ive {
+    background-image: url("../assets/images/Captura de pantalla 2023-08-22 222700.png");
+    
+    /* Creates parallax effect */
+    height: 100%;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: space;
+    background-size: cover;
+  }
+
+
   .betBud {
     background-image: url("../assets/images/logo_BetBud_blackBkgd_Mesa\ de\ trabajo\ 1.png");
     
